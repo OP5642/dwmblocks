@@ -3,7 +3,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"| \uf241  ", 		SC(./battery),				60,		0}, 	//Battery
-	{"\uf2db ", 		SC(./cpu),					2,		0}, 	//Battery
+	{"\uf2db ", 		SC(./cpu),					2,		0}, 	//CPU %
 	{"\uf85a ",  		SC(./ram),					30,		0},		//Memory
 	{"\uf028 ", 		SC(./volume),				0,		10},	//Volume
 	{"\uf1eb ", 		SC(./wifi_ssid),			3,		0},		//Wifi_SSID
